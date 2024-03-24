@@ -3,9 +3,9 @@ import os
 
 bl_info = {
     "name": "Import Anything",
-    "author": "Your Name",
+    "author": "Kewk @kewkd",
     "version": (1, 0),
-    "blender": (3, 0, 0),
+    "blender": (4, 0, 0),
     "location": "File > Import > Import Anything",
     "description": "Import any supported file format using the correct importer",
     "warning": "",
