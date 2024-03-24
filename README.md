@@ -4,10 +4,10 @@ The "Import Anything" addon is a Blender extension that simplifies the process o
 
 ## Features
 
-- Import FBX files using the `bpy.ops.import_scene.fbx` operator
-- Import OBJ files using the `bpy.ops.wm.obj_import` operator
-- Import glTF files (`.gltf` and `.glb`) using the `bpy.ops.import_scene.gltf` operator
-- Append objects from .blend files using the `bpy.ops.wm.append` operator
+- Import FBX files
+- Import OBJ files 
+- Import glTF files
+- Imports objects from .blend (I need to change this so it acts like append)
 - Automatically detects the file format based on the file extension
 - Provides a convenient "Import Anything" option in the "File > Import" menu
 
@@ -24,10 +24,7 @@ The "Import Anything" addon is a Blender extension that simplifies the process o
 ## Usage
 
 1. Go to "File > Import > Import Anything".
-2. In the file browser, navigate to the directory containing the file you want to import.
-3. Select the file and click on the "Import" button.
-4. If you selected a .blend file, the file browser will open again, allowing you to select the objects or data you want to append from the file.
-5. The selected file will be imported into your current Blender scene.
+2. No, really... that's it.
 
 ## Supported File Formats (will add more later)
 
@@ -50,9 +47,6 @@ To add support for a new file format:
 
 This addon is released under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-The "Import Anything" addon was created using the Blender Python API and is based on the default import operators provided by Blender.
 
 ## Contributing
 
