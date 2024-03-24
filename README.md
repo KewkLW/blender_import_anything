@@ -13,10 +13,10 @@ The "Import Anything" addon is a Blender extension that simplifies the process o
 
 ## Installation
 
-1. Download the `import_anything_addon.py` file from this repository.
+1. Download the `all-import.py` file from this repository.
 2. Open Blender and go to "Edit > Preferences".
 3. In the "Add-ons" tab, click on the "Install" button.
-4. Navigate to the directory where you downloaded the `import_anything_addon.py` file and select it.
+4. Navigate to the directory where you downloaded the `all-import.py` file and select it.
 5. Click on the "Install Add-on" button to install the addon.
 6. Enable the addon by checking the checkbox next to "Import-Export: Import Anything".
 7. Save the preferences by clicking on the "Save Preferences" button.
@@ -35,7 +35,7 @@ The "Import Anything" addon is a Blender extension that simplifies the process o
 
 ## Extending the Addon
 
-You can easily extend the "Import Anything" addon to support additional file formats by adding the corresponding import operators to the `import_file` function in the `import_anything_addon.py` file.
+You can easily extend the "Import Anything" addon to support additional file formats by adding the corresponding import operators to the `import_file` function in the `all-import.py` file.
 
 To add support for a new file format:
 
